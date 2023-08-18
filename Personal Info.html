@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Personal Information</title>
+</head>
+
+<body style="background-color:lavender;">
+
+    <h1>
+        <center style="color:purple">Personal Information</center>
+    </h1>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form>
+            <label name="fname" id="fname">First Name:</label>
+            <input type="fname" id="fname">
+            <label name="lname" id="lname">Last Name:</label>
+            <input type="lname" id="lname">
+        </form>
+
+        <p>Password: <input type="password" name="password"></p>
+        <p>Email id: <input type="mail" name="mail"></p>
+        <p>Gender : Male<input type="radio" name="gender" id="male"> female<input type="radio" name="gender"
+                id="female">
+        </p>
+        <p>Address:<textarea name="address" id="address" rows="3" cols="30"></textarea></p>
+        <p>Contacts: <input type="number" name="number" id="number"></p>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <u>
+            <p>Additional Information</p>
+        </u>
+        <p>Degree : <select name="group" id="group">
+                <option value="">--Select Group--</option>
+                <option value=" Computer Science">Computer Science</option>
+                <option value="Electronics and Electrical">Electronics and Electrical</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Mechanical">Mechanical</option>
+            </select>
+        </p>
+        <p>DOB: <input type="date" id="date"></p>
+    </fieldset>
+
+    <center>
+        <p> 
+            <input type="Submit">
+            <input type="submit" value="checkagain">
+            <button>RESET</button>
+        </p>
+    </center>
+
+</body>
+
+</html>
